@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Task-5</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+      .para-right {
+        text-align: right;
+      }
+      .para {
+        text-align: center;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Registration Form</h1>
+      <form>
+        <table border="1" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="para">First Name</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Last Name</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Email</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Password</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Re-enter Password</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para" rowspan="2">Gender:</td>
+            <td colspan="8">
+              <input type="radio" name="gender" /><label>Male</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="8">
+              <input type="radio" name="gender" /><label>Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td class="para">Age:</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Phone Number</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Address</td>
+            <td>
+              <textarea name="address" rows="6" cols="74"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="para">State</td>
+            <td colspan="8"><input type="text" size="80" /></td>
+          </tr>
+          <tr>
+            <td class="para">Country</td>
+            <td size="45">
+              <select>
+                <option>Choose your country</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Russia</option>
+                <option>Japan</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="para">Languages Known</td>
+            <td colspan="8">
+              <input type="checkbox" value="english" />
+              <label>English</label>
+              <input type="checkbox" value="Kannada" />
+              <label>Kannada</label>
+              <input type="checkbox" value="Hindi" />
+              <label>Hindi</label>
+              <input type="checkbox" value="Telugu" />
+              <label>Telugu</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="8">
+              <input type="checkbox" value="declaration" checked />
+              <label>Hereby I declare all the given details are true</label>
+            </td>
+          </tr>
+          <tr>
+            <!-- <td colspan="4" bordercolor="white"></td> -->
+            <td colspan="8" class="para-right">
+              Log in to
+              <a href="https://www.ethnus.com" target="_blank">Ethnus</a>
+              website
+            </td>
+            <!-- <td>Log in to <a href="https://www.ethnus.com">Ethnus</a> website</td> -->
+          </tr>
+        </table>
+      </form>
+      <br />
+      <button>Register</button>
+    </center>
+  </body>
+</html>

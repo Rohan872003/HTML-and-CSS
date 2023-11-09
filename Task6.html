@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Task-1</title>
+    <style>
+      .table th,
+      .table td {
+        border: 2px solid black;
+        border-radius: 8px;
+      }
+      .table {
+        background-color: #96d4d4;
+      }
+      .border-rad {
+        border-collapse: collapse;
+      }
+      .r1c1,
+      .r1c2,
+      .r1c3,
+      .r2c1,
+      .r2c2,
+      .r2c3,
+      .r3c1,
+      .r3c2,
+      .r3c3 {
+        width: 120px;
+        height: 100px;
+        margin-bottom: 50px;
+        margin-right: 35px;
+        border: 3px solid rgb(135, 243, 121);
+      }
+      .r1c1 {
+        border-radius: 2px;
+      }
+      .r1c2 {
+        border-radius: 10px;
+      }
+      .r1c3 {
+        border-radius: 30px;
+      }
+      .r2c1 {
+        border-radius: 15px;
+      }
+      .r2c2 {
+        border-radius: 0px;
+      }
+      .r2c3 {
+        border-radius: 35px;
+      }
+      .r3c1 {
+        border-radius: 100%;
+      }
+      .r3c2 {
+        border-radius: 6px;
+      }
+      .r3c3 {
+        border-radius: 4px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table class="table" border="0.5" bordercolor="white">
+        <tr>
+          <th width="400">Firstname</th>
+          <th width="400">Lastname</th>
+          <th width="100">Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+    </center>
+    <br /><br /><br /><br /><br />
+    <center>
+      <table class="border-rad">
+        <tr>
+          <td><div class="r1c1"></div></td>
+          <td><div class="r1c2"></div></td>
+          <td><div class="r1c3"></div></td>
+        </tr>
+        <tr>
+          <td><div class="r2c1"></div></td>
+          <td><div class="r2c2"></div></td>
+          <td><div class="r2c3"></div></td>
+        </tr>
+        <tr>
+          <td><div class="r3c1"></div></td>
+          <td><div class="r3c2"></div></td>
+          <td><div class="r3c3"></div></td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
+
